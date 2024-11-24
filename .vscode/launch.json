@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug test_search_results",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_search_results.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args": []
+        }
+    ]
+}
