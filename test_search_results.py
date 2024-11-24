@@ -14,7 +14,7 @@ MAIN_ENDPOINT = "https://www.britinsurance.com"
 @pytest.fixture(scope="module")
 def driver():
     options = Options()
-    options.headless = False
+    options.add_argument("--headless=new")
     options.add_argument(
         "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.90 Safari/537.36"
     )
@@ -32,7 +32,7 @@ def driver():
 
 
 def test_search_results(driver):
-    # time.sleep(2)
+    time.sleep(2)
     search_button = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located(
             (By.CSS_SELECTOR, '[aria-label="Search button"]')
