@@ -1,6 +1,7 @@
+import json
+
 import pytest
 import requests
-import json
 
 # Define the base URL for the API
 BASE_URL = "https://api.restful-api.dev/objects"
