@@ -1,0 +1,45 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+venv.bak/
+*.egg-info/
+dist/
+build/
+
+# Test and coverage reports
+.coverage
+*.coverage
+*.coveragerc
+nosetests.xml
+coverage.xml
+*.log
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Python package manager
+pip-wheel-metadata/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+
+# Pytest cache
+.cache/
